@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: rgb(224, 245, 245);
 }
 /* .social-icons{
   display: flex;
@@ -19,14 +20,11 @@
   top: 0;
   right: 0;
   padding: 10px;
+  height: 5vh;
+  /* border-radius: 90px;  */
 }
 
 .social-icons {
   display: flex;
-  gap: 10px; /* Adjust the gap as needed */
-}
-
-.social-icons button {
-  border-radius: 20px; /* Adjust the border-radius to your preference */
-  /* Add additional styling for your buttons */
+  gap: 40px; /* Adjust the gap as needed */
 }

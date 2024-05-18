@@ -5,7 +5,7 @@ const Header = () => {
         <header>
         
             {/* Your logo or site title */}
-            <h1>My Portfolio</h1>
+            {/* <h1>My Portfolio</h1> */}
 
             {/* Social media icons */}
             <div className="social-icons">
