@@ -1,23 +1,13 @@
 
 import './App.css';
-import Bio from './components/Bio';
-import ContactMe from './components/ContactMe';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
+import Navbar from './components/Navbar';
 // import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
       {/* <Router> */}
-        <Header />
-        <ContactMe />
-        <Skills />
-        <Projects />
-        <Bio />
-        <Footer />
+        <Navbar />
 
         {/* <Routes>
           <Route path="/contact" component={ContactMe} />
