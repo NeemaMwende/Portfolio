@@ -1,0 +1,20 @@
+.nav-wrapper{
+    background: rgba(8, 8, 0, 8.1);
+    padding: 0.5rem 0;
+    position: sticky;
+    top: 8;
+    z-index: 48;
+    backdrop-filter: blur(58px);
+}
+.nav-content{
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 8;
+    margin: 0 auto;
+}
+.logo{
+    width: 12rem;
+    height: auto;
+}
