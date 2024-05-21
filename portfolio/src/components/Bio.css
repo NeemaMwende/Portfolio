@@ -2,16 +2,19 @@
     display: flex;
     align-items: center;
     position: relative;
+    padding-top: 100px;
 }
-.hero-container::after,
-.hero-container::before{
+.hero-container::after {
     content: "";
     width: 28.125rem;
     height: 28.125rem;
-    border-radius: 28.125rem;
+    border-radius: 29rem;
     background: #7c66e3;
     position: absolute;
     z-index: -1;
+    top: 5%; /* Position it as needed */
+    left: 5%; /* Position it as needed */
+    margin: 5%; /* Adjust margin if necessary */
 }
 .hero-container::after{
     top: -3rem;
@@ -53,22 +56,34 @@
     width: 25rem;
     transition: all 0.3s ease;
 }
-.tech-icon{
-    width: 5rem;
-    height: 5rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    border-radius: 0.65rem;
-    border: 1.3px solid #6852ba;
-}
+ .tech-icon{
+ 
+} 
 .tech-icon img{
     width: 3rem;
     height: auto;
-    transition: all 0.3s ease;
+
 }
 .hero-img > div > img:hover,
 .tech-icon img:hover {
     transform: translateY(-0.5rem);
+    
+}
+
+
+.hero-img > div,
+.tech-icon {
+    transform: translateY(-0.5rem);
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 80vw; /* 50% of the viewport width */
+    height: 80vw; /* Height equal to the width */
+    max-width: 300px; /* Optional: max-width to prevent it from becoming too large */
+    max-height: 300px; /* Optional: max-height to maintain aspect ratio */
+    border-radius: 50%; /* Make it circular */
+    overflow: hidden;
+    
 }

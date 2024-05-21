@@ -1,45 +1,26 @@
-import React from 'react'
+import React from 'react';
+import { FaReact, FaHtml5, FaCss3Alt } from 'react-icons/fa'; // Importing icons from Font Awesome
 import "./Bio.css";
-import { FaReact } from 'react-icons/fa'; // React icon from Font Awesome
-import { FaHtml5 } from 'react-icons/fa'; // HTML5 icon from Font Awesome
-import { FaCss3Alt } from 'react-icons/fa'; // CSS3 icon from Font Awesome
-// import { MdHeight } from 'react-icons/md';
+import angel from '../Images/image1.jpg'
 
 const Bio = () => {
   return (
     <section className='hero-container'>
       <div className='hero-content'>
-          <h2>Building Digital Experiences That Inspire</h2>
-          <p>Passionate Full Stack Developer | Transforming Ideas into 
-            Seamless and Visually Stunning Web Solutions
-          </p>
+        <h2>Building Digital Experiences That Inspire</h2>
+        <p>Passionate Full Stack Developer | Transforming Ideas into Seamless and Visually Stunning Web Solutions</p>
       </div>
 
       <div className='hero-img'>
-        <div>
-              <div className='tech-icon'>
-                  <img src="./Images/pic.svg" alt="" />
-                </div>
-              <img src={<FaReact style={{ color: '#61DBFB' }} /> } alt="" />
+        <div className='tech-icon'>
+          <img src={angel} alt="" /> {/* Placeholder image */}
+          <FaReact style={{ color: '#61DBFB' }} /> {/* React icon */}
         </div>
 
-        {/* <div className='iconStyle' style={{ textAlign: 'center', marginTop: '2rem' }}>
-            <FaReact style={{ color: '#61DBFB' }} /> 
-            <FaHtml5 style={{ color: '#E34F26' }} />
-            <FaCss3Alt style={{ color: '#1572B6' }} />
-        </div> */}
-
-      <div>
-          <div className='tech-icon'>
-            <img src={<FaHtml5 style={{ color: '#E34F26' }} />} alt="" />
-          </div>
-          <div className='tech-icon'>
-            <img src={<FaReact style={{ color: '#E34F26' }} />} alt="" />
-          </div>
-          <div className='tech-icon'>
-            <img src={<FaCss3Alt style={{ color: '#E34F26' }} />} alt="" />
-          </div>
-      </div>
+        <div>
+          
+        
+        </div>
       </div>
     </section>
   );
