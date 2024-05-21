@@ -1,31 +1,25 @@
 import React from 'react';
+import './Navbar.css';
 
 const Navbar = () => {
     return (
-        <header>
-        
-            {/* Your logo or site title */}
-            {/* <h1>My Portfolio</h1> */}
+            <>
+                <nav className='row-wrapper'>
+                    <div className='nav-content'>
+                        <img className='logo' src='./public/favicon.ico' alt='' />
 
-            {/* Social media icons */}
-            <div className="social-icons">
-                <a href="https://x.com/GracePeter1212" target='blank'>
-                    <i className="fab fa-twitter"></i>
-                </a>
-                <a href="https://web.facebook.com/angel.wesley.564/" target='blank'>
-                    <i className="fab fa-facebook"></i>
-                </a>
-                <a href="https://www.instagram.com/a.n.g.e.l_w.e.s/" target='blank'>
-                    <i className="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/neema-mwende-2089a8273/" target='blank'>
-                    <i className="fab fa-linkedin"></i>
-                </a>
-                <a href="https://github.com/NeemaMwende/" target='blank'>
-                    <i className="fab fa-github"></i>
-                </a>
-            </div>
-        </header>
+                        <ul>
+                            <li><a className="menu-item">Home</a></li>
+                            <li><a className="menu-item">Skills</a></li>
+                            <li><a className="menu-item">Work Experience</a></li>
+                            <li><a className="menu-item">Projects</a></li>
+                            <li><a className="menu-item">Contact Me</a></li>
+
+                            <button className='contact-btn' onClick={() => {}}>Hire Me</button>
+                        </ul>
+                    </div>
+                </nav>
+            </>
     );
 };
 
