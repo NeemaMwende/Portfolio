@@ -87,3 +87,123 @@
     overflow: hidden;
     
 }
+@media (max-width: 1025px){
+    .hero-container::after {
+        width: 40rem;
+        height: 40rem;
+        border-radius: 40rem;
+    }
+    .hero-container::after{
+        top: -5rem;
+        left: -10rem;
+    }
+    .hero-container::before{
+        bottom: 3rem;
+        right: 0rem;
+    }
+    .hero-content h2{
+        font-size: 4.5rem;
+        line-height: 6rem;
+    }
+    .hero-content p{
+        /* width: 60%; */
+        font-size: 0.9rem;
+        line-height: 1.6rem;
+    }
+    .hero-img > div > img {
+        width: 20rem;
+    }
+    .hero-img > div,
+    .tech-icon {
+        width: 4rem; /* 50% of the viewport width 40vw*/
+        height: 4rem; /* Height equal to the width  40vw*/
+        max-width: 400px; /* Optional: max-width to prevent it from becoming too large */
+        max-height: 400px; /* Optional: max-height to maintain aspect ratio */
+    }
+    .tech-icon img{
+        width: 2.5rem;
+    }
+}
+@media (max-width: 768px){
+
+    .hero-content h2{
+        /* font-size: 3.5rem;
+        line-height: 4.5rem; */
+        margin-top: 3rem;
+    }
+    .hero-container{
+        flex-direction: column;
+    }
+    .hero-content p{
+        /* width: 60%; */
+        font-size: 0.8rem;
+        line-height: 1.4rem;
+    }
+    .hero-img > div > img {
+        width: 20rem;
+    }
+    .hero-img > div,
+    .tech-icon {
+        width: 4rem; /* 50% of the viewport width 40vw*/
+        height: 4rem; /* Height equal to the width  40vw*/
+        max-width: 400px; /* Optional: max-width to prevent it from becoming too large */
+        max-height: 400px; /* Optional: max-height to maintain aspect ratio */
+    }
+    .tech-icon img{
+        width: 2.5rem;
+    }
+    .hero-container::after,
+    .hero-container::before{
+        content: "";
+        width: 18rem;
+        height: 18rem;
+    }
+    .hero-container::after{
+        top: 8rem;
+        left: 8rem;
+    }
+    .hero-container::before{
+        bottom: 2rem;
+        right: 0rem;
+    }
+}
+@media (max-width: 600px){
+    .hero-content h2{
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+    .hero-content p{
+        /* width: 80%; */
+        font-size: 0.8rem;
+        line-height: 1.4rem;
+    }
+    .hero-img > div > img {
+        width: 15rem;
+    }
+    .hero-img > div{
+        gap: 1 rem;
+    }
+    .tech-icon {
+        width: 3rem; /* 50% of the viewport width 40vw*/
+        height: 3rem; /* Height equal to the width  40vw*/
+        max-width: 300px; /* Optional: max-width to prevent it from becoming too large */
+        max-height: 300px; /* Optional: max-height to maintain aspect ratio */
+    }
+    .tech-icon img{
+        width: 2rem;
+    }
+    .hero-container::after,
+    .hero-container::before{
+        content: "";
+        width: 15rem;
+        height: 15rem;
+    }
+    .hero-container::after{
+        top: 8rem;
+        left: 8rem;
+    }
+    .hero-container::before{
+        bottom: 2rem;
+        right: 0rem;
+    }
+}
