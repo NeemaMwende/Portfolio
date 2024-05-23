@@ -1,5 +1,6 @@
 import React from 'react'
 import './Skills.css'
+import SkillCard from './SkillCard';
 
 const Skills = () => {
   return (
@@ -8,7 +9,13 @@ const Skills = () => {
 
       <div className='skills-content'>
         <div className='skills'>
-          
+            {SKILLS.map((item) => (
+              <SkillCard 
+                key={item.title}
+                iconUrl={item.icon}
+                title={item.title}
+              />
+            ))}
         </div>
 
         <div className='skills-info'></div>
