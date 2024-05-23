@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Skills.css'
 import SkillCard from './SkillCard';
 import { SKILLS } from '../../src/utils/data';
 
 const Skills = () => {
+
+  const [selectedSkill, setSelectedSkill] = useState(SKILLS[0]);
+
+  const hardSelectedSkill = (data) => {
+    setSelectedSkill(data);
+  };
 
   return (
     <section className='skills-container'>
