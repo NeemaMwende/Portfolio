@@ -1,8 +1,10 @@
 import React from 'react'
 import './Skills.css'
 import SkillCard from './SkillCard';
+import { SKILLS } from '../../src/utils/data';
 
 const Skills = () => {
+
   return (
     <section className='skills-container'>
       <h5>Technical Profiency</h5>
