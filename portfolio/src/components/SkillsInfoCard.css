@@ -57,3 +57,10 @@
         padding: 1.5rem;
     }
 }
+/* Responsive design for mobile view */
+@media (max-width: 768px) {
+    .skills-info-card {
+      width: 90%;
+      margin: 0 auto; /* Center the card in mobile view */
+    }
+  }

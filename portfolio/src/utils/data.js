@@ -45,3 +45,45 @@ export const SKILLS = [
         ],
     },
 ];
+export const WORK_EXPERIENCE = [
+    {
+        title: "Senior Frontend Developer at Tech Innovators",
+        date: "January 2022 - Present",
+        responsibilities: [
+          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
+          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
+          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
+          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
+        ],
+    },
+    {
+        title: "Junior Web Developer at Digital Solutions",
+        date: "June 2020 - December 2021",
+        responsibilities: [
+          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
+          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
+          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
+          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
+        ],
+    },
+    {
+        title: "Frontend Intern at Web Studio",
+        date: "May 2019 - August 2019",
+        responsibilities: [
+          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
+          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
+          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
+          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
+        ],
+    },
+    {
+        title: "React Developer at Glitex Solutions",
+        date: "January 2022 - September 2022",
+        responsibilities: [
+          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
+          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
+          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
+          "lorem lipsum lipsum lipsum lipsum lipsum lipsum lipsum lipsum ",
+        ],
+    },
+];

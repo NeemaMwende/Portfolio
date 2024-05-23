@@ -38,6 +38,7 @@
 @media (max-width: 1025px) {
     .skills-card{
         padding: 2rem;
+        /* width: 80%; */
     }
     .skills-card span{
         font-size: 1rem;
@@ -47,10 +48,11 @@
         height: 3rem;
     }
     .skill-icon img{
-        width: 1.8rem;
+        width: 40px;
+        /* height: 40px; */
     }
 }
-@media (max-width:769px) {
+@media (max-width:768px) {
     .skills-card span{
         font-size: 8.9rem;
     }
