@@ -2,12 +2,13 @@ import React, { useState } from 'react'
 import './Skills.css'
 import SkillCard from './SkillCard';
 import { SKILLS } from '../../src/utils/data';
+import SkillsInfoCard from './SkillsInfoCard';
 
 const Skills = () => {
 
   const [selectedSkill, setSelectedSkill] = useState(SKILLS[0]);
 
-  const hardSelectedSkill = (data) => {
+  const handleSelectSkill = (data) => {
     setSelectedSkill(data);
   };
 
@@ -22,11 +23,20 @@ const Skills = () => {
                 key={item.title}
                 iconUrl={item.icon}
                 title={item.title}
+                isActive={selectedSkill.title === item.title}
+                onClick={() => {
+                  handleSelectSkill(item);
+                }}
               />
             ))}
         </div>
 
-        <div className='skills-info'></div>
+        <div className='skills-info'>
+          <SkillsInfoCard 
+            heading={selectedSkill.title}
+            skills={selectedSkill.skills}
+          />
+        </div>
       </div>
     </section>
   );
