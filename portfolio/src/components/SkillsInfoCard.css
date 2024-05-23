@@ -44,5 +44,16 @@
     height: 0.5rem;
     background: linear-gradient(90deg, #aa94fe -50%, #7c5fe6 50%);
     border-radius: 0.5rem;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+@media (max-width: 1025px) {
+    .skills-info-card h6 {
+        font-size: 1.1rem;
+    }
+    .skill-info p {
+        font-size: 0.9rem;
+    }
+    .skills-info-content{
+        padding: 1.5rem;
+    }
 }
