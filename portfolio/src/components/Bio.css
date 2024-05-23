@@ -9,12 +9,13 @@
     width: 28.125rem;
     height: 28.125rem;
     border-radius: 29rem;
-    background: #7c66e3;
+    /* background: #7c66e3; */
+    background: transparent;
     position: absolute;
     z-index: -1;
     top: 5%; /* Position it as needed */
     left: 5%; /* Position it as needed */
-    margin: 5%; /* Adjust margin if necessary */
+    margin: 10%; /* Adjust margin if necessary */
 }
 .hero-container::after{
     top: -3rem;
@@ -83,7 +84,7 @@
     height: 100vw; /* Height equal to the width */
     max-width: 400px; /* Optional: max-width to prevent it from becoming too large */
     max-height: 900px; /* Optional: max-height to maintain aspect ratio */
-    border-radius: 40px; /* Make it circular */
+    border-radius: 30%; /* Make it circular */
     overflow: hidden;
     
 }
