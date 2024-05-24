@@ -4,7 +4,8 @@
     position: relative;
     padding-top: 100px;
 }
-.hero-container::after {
+.hero-container::after,
+.hero-container::before {
     content: "";
     width: 28.125rem;
     height: 28.125rem;
@@ -13,6 +14,7 @@
     background: transparent;
     position: absolute;
     z-index: -1;
+    filter: blur(225px);
     top: 5%; /* Position it as needed */
     left: 5%; /* Position it as needed */
     margin: 10%; /* Adjust margin if necessary */
@@ -58,19 +60,25 @@
     transition: all 0.3s ease;
 }
  .tech-icon{
- 
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.65deg;
+    border: 1.5px solid #6852ba;
 } 
 .tech-icon img{
     width: 4rem;
     height: auto;
-
+    transition: all 0.3s ease;
 }
 .hero-img > div > img:hover,
 .tech-icon img:hover {
     transform: translateY(-0.5rem);
     
 }
-
 
 .hero-img > div,
 .tech-icon {
@@ -118,8 +126,8 @@
     .tech-icon {
         width: 4rem; /* 50% of the viewport width 40vw*/
         height: 4rem; /* Height equal to the width  40vw*/
-        max-width: 400px; /* Optional: max-width to prevent it from becoming too large */
-        max-height: 400px; /* Optional: max-height to maintain aspect ratio */
+        /* max-width: 400px; 
+        max-height: 400px;  */
     }
     .tech-icon img{
         width: 2.5rem;

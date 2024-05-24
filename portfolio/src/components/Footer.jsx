@@ -1,9 +1,11 @@
 import React from 'react'
+import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div>
-      {/* Social media icons */}
+    <div className='footer'>
+        2024 Time To Program, Happy Coding
+
             {/* <div className="social-icons">
                 <a href="https://x.com/GracePeter1212" target='blank'>
                     <i className="fab fa-twitter"></i>
