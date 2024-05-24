@@ -53,15 +53,14 @@
     align-items: center;
     justify-content: center;
   }
-  
-  .profile-img {
-    width: 30rem; /* Adjusted size */
-    height: 32rem;
-    border-radius: 20px;
+ .profile-img {
+    height: 28rem;
+    width: 25rem;
+    border-radius: 40px;
+    /* max-width: 10rem; */
     object-fit: cover;
     transition: all 0.3s ease;
-  }
-  
+  } 
   .profile-img:hover {
     transform: translateY(-0.5rem);
   }

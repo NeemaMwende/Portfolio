@@ -1,7 +1,7 @@
-import image1 from "../Images/angel1.jpeg";
-import image2 from "../Images/angel2.jpeg";
-import image3 from "../Images/logo1.jpeg";
-import image4 from "../Images/logo2.jpeg";
+import image1 from "../Images/tool.png";
+import image2 from "../Images/tool.png";
+import image3 from "../Images/tool.png";
+import image4 from "../Images/soft.png";
 
 export const SKILLS = [
     {

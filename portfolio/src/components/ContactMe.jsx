@@ -1,8 +1,8 @@
 import React from 'react';
 import "./ContactMe.css";
 import ContactMeCard from "./ContactMeCard";
-import email from "../Images/pic.jpeg";
-import github from "../Images/pic.jpeg";
+import email from "../Images/email1.png";
+import github from "../Images/github1.png";
 import ContactForm from './ContactForm';
 
 const ContactMe = () => {
