@@ -49,6 +49,8 @@
     align-items: center;
     gap: 2rem;
     margin-top: 5rem;
+    transform: translateY(-0.5rem);
+    
 }
 .hero-img > div{
     display: flex;
@@ -56,10 +58,10 @@
     gap: 2rem;
 }
 .hero-img > div > img {
-    width: 29rem;
+    width: 10rem;
     transition: all 0.3s ease;
 }
- .tech-icon{
+ /* .tech-icon{
     width: 5rem;
     height: 5rem;
     display: flex;
@@ -73,15 +75,14 @@
     width: 4rem;
     height: auto;
     transition: all 0.3s ease;
-}
-.hero-img > div > img:hover,
+} */
+/* .hero-img > div > img:hover,
 .tech-icon img:hover {
     transform: translateY(-0.5rem);
     
-}
+} */
 
-.hero-img > div,
-.tech-icon {
+.hero-img > div{
     transform: translateY(-0.5rem);
     flex: 1;
     display: flex;
@@ -129,9 +130,7 @@
         /* max-width: 400px; 
         max-height: 400px;  */
     }
-    .tech-icon img{
-        width: 2.5rem;
-    }
+
 }
 @media (max-width: 768px){
 
@@ -151,15 +150,11 @@
     .hero-img > div > img {
         width: 20rem;
     }
-    .hero-img > div,
-    .tech-icon {
+    .hero-img {
         width: 4rem; /* 50% of the viewport width 40vw*/
         height: 4rem; /* Height equal to the width  40vw*/
         max-width: 400px; /* Optional: max-width to prevent it from becoming too large */
         max-height: 400px; /* Optional: max-height to maintain aspect ratio */
-    }
-    .tech-icon img{
-        width: 2.5rem;
     }
     .hero-container::after,
     .hero-container::before{
@@ -191,15 +186,6 @@
     }
     .hero-img > div{
         gap: 1 rem;
-    }
-    .tech-icon {
-        width: 3rem; /* 50% of the viewport width 40vw*/
-        height: 3rem; /* Height equal to the width  40vw*/
-        max-width: 300px; /* Optional: max-width to prevent it from becoming too large */
-        max-height: 300px; /* Optional: max-height to maintain aspect ratio */
-    }
-    .tech-icon img{
-        width: 2rem;
     }
     .hero-container::after,
     .hero-container::before{

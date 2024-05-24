@@ -40,11 +40,7 @@ const Bio = () => {
       </div>
       <div className='hero-img'>
         <img src={angel} alt="Profile" className='profile-img' />
-        {/* <div className='tech-icons'>
-          <FaReact className='tech-icon' style={{ color: '#61DBFB' }} /> 
-          <FaHtml5 className='tech-icon' style={{ color: '#E34C26' }} />  
-          <FaCss3Alt className='tech-icon' style={{ color: '#1572B6' }} /> 
-        </div> */}
+
       </div>
     </section>
   );

@@ -98,10 +98,10 @@ const WorkExperience = () => {
       <h5>Work Experience</h5>
       <div className="experience-content">
         <div className="arrow-right" onClick={slideRight}>
-          <span className="material-symbols-outlined">chevron_right</span>
+          &gt;
         </div>
         <div className="arrow-left" onClick={slideLeft}>
-          <span className="material-symbols-outlined">chevron_left</span>
+          &lt;
         </div>
         <Slider ref={sliderRef} {...settings}>
           {WORK_EXPERIENCE.map((item) => (
