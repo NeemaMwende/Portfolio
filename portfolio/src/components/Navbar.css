@@ -2,7 +2,7 @@
     background: rgba(8, 8, 0, 8.1);
     padding: 0.5rem 0;
     position: sticky;
-    top: 8;
+    top: 0;
     z-index: 48;
     backdrop-filter: blur(58px);
 }
