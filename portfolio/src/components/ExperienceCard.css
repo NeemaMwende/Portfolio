@@ -6,9 +6,10 @@
     margin: 0 1rem;
 }
 .work-experience-card h6{
-    font-size: 1.85rem;
+    font-size: 20px;
     font-weight: 500;
-    margin-bottom: 0.7rem;
+    margin-bottom: 0.9rem;
+    /* text-align: center; */
 }
 .work-duration{
     display: inline-block;
