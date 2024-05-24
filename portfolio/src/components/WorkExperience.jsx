@@ -30,6 +30,14 @@ const WorkExperience = () => {
         <h5>Work Experience</h5>
 
         <div className="experience-content">
+          <div className="arrow-right">
+            <span className="material-symbols-outlined">chevron_right</span>
+          </div>
+
+          <div className="arrow-right">
+            <span className="material-symbols-outlined">chevron_right</span>
+          </div>
+          
           <Slider ref={sliderRef} {...settings}>
             {WORK_EXPERIENCE.map((item) => (
               <ExperienceCard key={item.title} details={item}/>
