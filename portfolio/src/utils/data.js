@@ -2,6 +2,7 @@ import image1 from "../Images/tool.png";
 import image2 from "../Images/tool.png";
 import image3 from "../Images/tool.png";
 import image4 from "../Images/soft.png";
+import image5 from "../Images/image1.jpg";
 
 export const SKILLS = [
     {
@@ -87,3 +88,8 @@ export const WORK_EXPERIENCE = [
         ],
     },
 ];
+export const PROJECTS = [
+    { name: 'Project 1', description: 'Description for Project 1', image: {image5}, link: 'https://project1.com' },
+    { name: 'Project 2', description: 'Description for Project 2', image: {image5}, link: 'https://project2.com' },
+    { name: 'Project 3', description: 'Description for Project 3', image: {image5}, link: 'https://project3.com' },
+  ];
