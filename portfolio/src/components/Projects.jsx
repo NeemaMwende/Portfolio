@@ -41,9 +41,11 @@ const Projects = () => {
           {PROJECTS.map((project, index) => (
             <div key={index} className="project-slide">
               <img src={angel} alt={project.name} />
-              <h3>{project.name}</h3>
-              <p>{project.description}</p>
-              <a href={project.link} target="_blank" rel="noopener noreferrer">View Project</a>
+              <div className='information'>
+                <h3>{project.name}</h3>
+                <p>{project.description}</p>
+                <a href={project.link} target="_blank" rel="noopener noreferrer">View Project</a>
+              </div>
             </div>
           ))}
         </Slider>
