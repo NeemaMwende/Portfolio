@@ -67,6 +67,10 @@
     cursor: pointer;
     transition: all 0.3 ease;
 }
+.btns{
+    display: flex;
+    gap: 40px;
+}
 .contact-btn:hover{
     color: #a993fe;
     background: #000;

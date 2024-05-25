@@ -18,13 +18,17 @@ const Navbar = () => {
                         <img className='logo' src={angel} alt='' />
 
                         <ul>
-                            <li><a className="menu-item">Home</a></li>
-                            <li><a className="menu-item">Skills</a></li>
-                            <li><a className="menu-item">Work Experience</a></li>
-                            <li><a className="menu-item">Projects</a></li>
-                            <li><a className="menu-item">Contact Me</a></li>
+                            <li id='home'><a className="menu-item">Home</a></li>
+                            <li id='skills'><a className="menu-item">Skills</a></li>
+                            <li id='work'><a className="menu-item">Work Experience</a></li>
+                            <li id='projects'><a className="menu-item">Projects</a></li>
+                            <li id='contact'><a className="menu-item">Contact Me</a></li>
 
+                         <div className='btns'>
                             <button className='contact-btn' onClick={() => {}}>Hire Me</button>
+                            <button className='contact-btn' onClick={() => {}}>Resume</button>
+                        </div>  
+                        
                         </ul>
 
                         <button className='menu-btn' onClick={toggleMenu}>
