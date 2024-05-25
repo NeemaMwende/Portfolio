@@ -26,7 +26,9 @@ const Navbar = () => {
 
                          <div className='btns'>
                             <button className='contact-btn' onClick={() => {}}>Hire Me</button>
-                            <button className='contact-btn' onClick={() => {}}>Resume</button>
+                            <a href="./Neema_Mwende_Resume.pdf" download>
+                            <button className='contact-btnn' onClick={() => {}}>Resume</button>
+                            </a>
                         </div>  
                         
                         </ul>
