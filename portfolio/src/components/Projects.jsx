@@ -5,7 +5,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import './Projects.css';
 import angel from "../Images/pic.jpeg";
 import { useRef } from 'react';
-import PROJECTS from "../utils/data";
+import { PROJECTS } from "../../src/utils/data";
 
 const Projects = () => {
   const sliderRef = useRef();
@@ -28,21 +28,18 @@ const Projects = () => {
 
   return (
     <section id='projects' className="projects-container">
+      <div className="arrow-right" onClick={slideRight}>
+        &gt;
+      </div>
+      <div className="arrow-left" onClick={slideLeft}>
+        &lt;
+      </div>
       <div className="projects-info">
         <h5>My Projects</h5>
 
-        <div className="experience-content">
-          <div className="arrow-right" onClick={slideRight}>
-            &gt;
-          </div>
-          <div className="arrow-left" onClick={slideLeft}>
-            &lt;
-          </div>
-        </div>
-
         <Slider ref={sliderRef} {...settings}>
           {PROJECTS.map((project, index) => (
-            <div key={index}>
+            <div key={index} className="project-slide">
               <img src={angel} alt={project.name} />
               <h3>{project.name}</h3>
               <p>{project.description}</p>
