@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './Navbar.css';
 import MobileNav from './MobileNav';
 import angel from "../Images/angel3.png";
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [openMenu, setOpenMenu] = useState(false);

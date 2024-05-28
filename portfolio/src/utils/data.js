@@ -9,8 +9,8 @@ export const SKILLS = [
         title: "Frontend",
         icon: {image1},
         skills: [
-            { skill: "HTML5", percentage: "80%"},
-            { skill: "CSS3 (Sass/Scss)", percentage: "98%"},
+            { skill: "HTML5 & CSS", percentage: "80%"},
+            { skill: "Bootstrap", percentage: "98%"},
             { skill: "Javascript", percentage: "75%"},
             { skill: "React.js", percentage: "88%"}
         ],
@@ -20,9 +20,9 @@ export const SKILLS = [
         icon: {image2},
         skills: [
             { skill: "Node.js", percentage: "70%"},
-            { skill: "Express.js", percentage: "65%"},
+            { skill: "Python", percentage: "65%"},
             { skill: "Express.js", percentage: "80%"},
-            { skill: "Express.js", percentage: "65%"},
+            { skill: "Javascript", percentage: "65%"},
         ],
     },
     {
@@ -43,6 +43,26 @@ export const SKILLS = [
             { skill: "Collaboration", percentage: "98%"},
             { skill: "Attention to Detail", percentage: "75%"},
             { skill: "Team-work", percentage: "90%"}
+        ],
+    },
+    {
+        title: "Databases",
+        icon: {image4},
+        skills: [
+            { skill: "MY SQL", percentage: "80%"},
+            { skill: "Mongo DB", percentage: "98%"},
+            { skill: "Postrgress", percentage: "75%"},
+            { skill: "Team", percentage: "90%"}
+        ],
+    },
+    {
+        title: "Databases",
+        icon: {image4},
+        skills: [
+            { skill: "MY SQL", percentage: "80%"},
+            { skill: "Mongo DB", percentage: "98%"},
+            { skill: "Postrgress", percentage: "75%"},
+            { skill: "Team", percentage: "90%"}
         ],
     },
 ];
