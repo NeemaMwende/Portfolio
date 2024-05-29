@@ -7,6 +7,7 @@ import angel from "../Images/movie.png";
 import { useRef } from 'react';
 import { PROJECTS } from "../../src/utils/data";
 
+
 const Projects = () => {
   const sliderRef = useRef();
 
@@ -48,7 +49,9 @@ const Projects = () => {
               </div>
             </div>
           ))}
+          
         </Slider>
+
       </div>
     </section>
   );

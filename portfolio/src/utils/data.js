@@ -2,8 +2,9 @@ import image1 from "../Images/tool.png";
 import image2 from "../Images/tool.png";
 import image3 from "../Images/tool.png";
 import image4 from "../Images/soft.png";
-// import image5 from "../Images/image1.jpg";
+import image5 from "../Images/image1.jpg";
 import image6 from "../Images/movie.png";
+import image7 from "../Images/Todo.png";
 
 export const SKILLS = [
     {
@@ -111,7 +112,7 @@ export const WORK_EXPERIENCE = [
 ];
 export const PROJECTS = [
     { name: 'Movie App', description: 'A React App that uses TvMazeApi API to fetch and display movies. One is also able to play the movie by being directed to their official site, or download the movie', 
-        image: {image6}, link: 'https://project1.com' },
-    { name: 'Project 2', description: 'Description for Project 2', image: {image6}, link: 'https://project2.com' },
+        image: {image6}, link: 'https://movies-elx3ictfs-neemamwendes-projects.vercel.app/' },
+    { name: 'Todo-List App', description: 'A todo list react app that enables one to manage their daily activities in an orderly manner.', image: {image7}, link: 'https://todo-cdi0nzqio-neemamwendes-projects.vercel.app/' },
     { name: 'Project 3', description: 'Description for Project 3', image: {image6}, link: 'https://project3.com' },
   ];
