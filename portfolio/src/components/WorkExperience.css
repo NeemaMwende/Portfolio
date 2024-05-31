@@ -1,76 +1,3 @@
-/* .experience-container {
-    margin: 4rem 0;
-    position: relative;
-}
-
-.experience-container h5 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 3rem;
-}
-
-.arrow-left,
-.arrow-right{
-    width: 2.2rem;
-    height: 2.2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #6751b9;
-    border-radius: 0.65rem;
-    border: 1.5px solid #6751b9;
-    background: #130f2a;
-    position: absolute;
-    top: 100%;
-    z-index: 2;
-    cursor: pointer;
-    left: -22rem;
-}
-
-.arrow-left span,
-.arrow-right span {
-    font-size: 2rem;
-    font-weight: 500;
-}
-
-.arrow-left {
-    left: -22rem; 
-    
-}
-
-.arrow-right {
-    right: 40rem;
-} 
-
-.slider-arrows {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    width: calc(100% - 6rem); 
-    margin: 0 auto;
-}
-
-@media(max-width: 1025px) {
-    .arrow-left {
-        left: 0rem;
-    }
-    .arrow-right {
-        right: 0rem;
-    }
-}
-
-@media (max-width: 768px) {
-    .experience-container h5{
-        font-size: 1.3rem;
-        margin-bottom: 2rem;
-    }
-    .arrow-left{
-        left: -2rem;
-    }
-    .arrow-right{
-        right: -2rem;
-    }
-} */
 .experience-container {
     margin: 4rem 0;
     position: relative;
@@ -133,7 +60,13 @@
     }
     .experience-content {
         padding: 0 1rem; /* Add padding to ensure the content is not too close to the edges */
+        font-size: 30px;
     }
+    /* .experience-container{
+        height: 100px;
+        width: 20rem;
+        font-size: 30px;
+    } */
 }
 
 @media(max-width: 480px) {
@@ -146,5 +79,9 @@
     }
     .arrow-right {
         right: -1rem; /* Adjust for smaller screens */
+    }
+    .experience-container{
+        height: 40px;
+        width: 100px;
     }
 }

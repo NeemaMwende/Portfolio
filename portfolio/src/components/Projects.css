@@ -84,6 +84,10 @@
   }
   
   @media (max-width: 768px) {
+    /* .projects-container{
+      justify-content: center;
+      padding: auto;
+    } */
     .projects-container h5 {
       font-size: 1.3rem;
       margin-bottom: 2rem;
@@ -108,6 +112,10 @@
     .arrow-right {
       right: -1rem;
       transform: translate(100%, -50%);
+    }
+    .projects-info img {
+      height: 300px;
+      width: 300px;
     }
   }
   

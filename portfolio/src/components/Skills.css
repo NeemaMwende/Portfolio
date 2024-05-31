@@ -13,7 +13,7 @@
     position: absolute;
     z-index: -1;
     filter: blur(200px);
-}
+} 
 .skills-container::after{
     top: -1rem;
     left: -5rem;
@@ -75,7 +75,7 @@
     }
     .skills-container::after,
     .skills-container::before{
-        width: 15em;
+        width: 15rem;
         height: 15rem;
     }
     .skills{
