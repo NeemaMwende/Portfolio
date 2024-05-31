@@ -51,6 +51,7 @@
   
   .project-slide {
     text-align: center; /* Center the content inside each slide */
+    justify-content: center;  
   }
   
   .projects-info img {
@@ -65,7 +66,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
-    margin-left: 25rem;
+    margin-left: 400px;
   }
   .projects-info img {
     transform: translateY(-0.5rem);
@@ -114,7 +115,7 @@
       transform: translate(100%, -50%);
     }
     .projects-info img {
-      height: 300px;
+      height: 350px;
       width: 300px;
     }
   }

@@ -20,7 +20,7 @@ function App() {
             <Projects />
             <ContactMe />
           </div>
-          <Footer />
+          <Footer />  
     </div>
   );
 }
