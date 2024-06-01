@@ -11,7 +11,7 @@ import WorkExperience from './components/WorkExperience';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App glitch">
         <Navbar />
           <div className='container'>
             <Bio />
